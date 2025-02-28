@@ -1,0 +1,25 @@
+body, h1 {
+    margin: 0;
+}
+
+h1.small {
+    font-size: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.header {
+    background-color: cornflowerblue;
+}
+
+.sidebar {
+    background-color: cadetblue;
+    grid-row: 1 / 3;
+}
+
+.main-content {
+    background-color: aquamarine;
+}
